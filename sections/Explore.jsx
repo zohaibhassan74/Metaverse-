@@ -6,7 +6,6 @@ import { ExploreCard, TitleText, TypingText } from "../components";
 import styles from "../styles";
 import { staggerContainer } from "../utils/motion";
 import { exploreWorlds } from "./../starter_repo/constants/index";
-import World from "./World";
 
 const Explore = () => {
   const [active, setActive] = useState("world-2");
